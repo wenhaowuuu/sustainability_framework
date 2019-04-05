@@ -42,174 +42,72 @@
 
 var treeData = [
   {
-    "name": "码砖大队 Codebrick",
+    "name": "码砖点子小组",
     "parent": "null",
     "children": [
       {
-        "name": "兴趣小组",
-        "parent":"码砖大队 Codebrick",
+        "name": "码砖大队 Team Codebrick",
+        "parent":"码砖点子小组",
         "children": [
-
           {
-            "name": "Coding程序及软件开发分群",
-            "parent": "兴趣小组",
+            "name": "兴趣小组",
+            "parent":"码砖大队 Team Codebrick",
             "children": [
-
               {
-                "name": "写码入门及技术交流",
-                "parent": "Coding程序及软件开发分群",
+                "name": "Coding兴趣小组（Wechat）",
+                // "name": "Coding程序及软件开发分群",
+                "parent": "兴趣小组",
                 "children": [
-                  // {
-                  //   "name": "Temperature",
-                  //   "parent": "写码入门及技术交流",
-                  //   "children": [
-                  //     // {
-                  //     //   "name": "Mean Temperature",
-                  //     //   "parent": "Temperature"
-                  //     // },
-                  //     // {
-                  //     //   "name": "Max Temperature",
-                  //     //   "parent": "Temperature"
-                  //     // },
-                  //     // {
-                  //     //   "name": "Min Temperature",
-                  //     //   "parent": "Temperature"
-                  //     // }
-                  //   ]
-                  // },
-                  // {
-                  //   "name": "Tree Canopy",
-                  //   "parent": "写码入门及技术交流",
-                  //   "children": [
-                  //     // {
-                  //     //   "name": "Density",
-                  //     //   "parent": "Tree Canopy"
-                  //     // },
-                  //     // {
-                  //     //   "name": "Coverage",
-                  //     //   "parent": "Tree Canopy"
-                  //     // },
-                  //     // {
-                  //     //   "name": "Depth",
-                  //     //   "parent": "Tree Canopy"
-                  //     // }
-                  //   ]
-                  // },
-                  // {
-                  //   "name": "Impervious Surface",
-                  //   "parent": "写码入门及技术交流"
-                  // }
-                ]
-              },
-
+                      {"name": "写码入门及技术交流",
+                       "parent": "Coding程序及软件开发分群",
+                       "children": []},
+                      {"name": "产品开发与Side projects",
+                       "parent": "Coding程序及软件开发分群",
+                       "children": []},
+                      {"name": "职场经验与工作讯息",
+                       "parent": "Coding程序及软件开发分群"}]
+               },
               {
-                "name": "产品开发与Side projects",
-                "parent": "Coding程序及软件开发分群",
+                "name": "自建房躺赢小组（Wechat）",
+                // "name": "地产与flipping house躺赢分群（Wechat）",
+                "parent": "兴趣小组",
                 "children": [
-                  // {
-                  //   "name": "Aerosol Density",
-                  //   "parent": "产品开发与Side projects"
-                  // },
-                  // {
-                  //   "name": "Wind Speed",
-                  //   "parent": "产品开发与Side projects"
-                  // }
-                ]
-              },
-
-              {
-                "name": "职场经验与工作讯息",
-                "parent": "Coding程序及软件开发分群"
-              }
-            ]
-          },
-
-          {
-            "name": "地产与flipping house躺赢分群",
-            "parent": "兴趣小组",
-            "children": [
-
-              {
-                "name": "湾区地产讯息交流",
-                "parent": "地产与flipping house躺赢分群",
-                "children": [
-                  // {
-                  //   "name": "Temperature",
-                  //   "parent": "湾区地产讯息交流",
-                  //   "children": [
-                  //     // {
-                  //     //   "name": "Mean Temperature",
-                  //     //   "parent": "Temperature"
-                  //     // },
-                  //     // {
-                  //     //   "name": "Max Temperature",
-                  //     //   "parent": "Temperature"
-                  //     // },
-                  //     // {
-                  //     //   "name": "Min Temperature",
-                  //     //   "parent": "Temperature"
-                  //     // }
-                  //   ]
-                  // },
-                  // {
-                  //   "name": "Tree Canopy",
-                  //   "parent": "湾区地产讯息交流",
-                  //   "children": [
-                  //     // {
-                  //     //   "name": "Density",
-                  //     //   "parent": "Tree Canopy"
-                  //     // },
-                  //     // {
-                  //     //   "name": "Coverage",
-                  //     //   "parent": "Tree Canopy"
-                  //     // },
-                  //     // {
-                  //     //   "name": "Depth",
-                  //     //   "parent": "Tree Canopy"
-                  //     // }
-                  //   ]
-                  // },
-                  // {
-                  //   "name": "Impervious Surface",
-                  //   "parent": "湾区地产讯息交流"
-                  // }
-                ]
-              },
-
-              {
-                "name": "建设施工法律法规",
-                "parent": "地产与flipping house躺赢分群",
-                "children": [
-                  // {
-                  //   "name": "Aerosol Density",
-                  //   "parent": "建设施工法律法规"
-                  // },
-                  // {
-                  //   "name": "Wind Speed",
-                  //   "parent": "建设施工法律法规"
-                  // }
-                ]
-              },
-
-              {
-                "name": "投资合作机会",
-                "parent": "地产与flipping house躺赢分群"
-              }
-            ]
-          }
-
-        ]
-      }
-    ]
+                       {"name": "湾区地产讯息交流",
+                       "parent": "地产与flipping house躺赢分群",
+                       "children": []},
+                       {"name": "建设施工法律法规",
+                       "parent": "地产与flipping house躺赢分群",
+                       "children": []},
+                       {"name": "投资合作机会",
+                        "parent": "地产与flipping house躺赢分群"}]
+               },
+               {
+                 "name": "Workplace空间设计小组（Wechat）",
+                 // "name": "地产与flipping house躺赢分群（Wechat）",
+                 "parent": "兴趣小组",
+                 "children": [
+                        {"name": "优秀案例学习",
+                        "parent": "码砖Workplace工作空间设计小组（Wechat）",
+                        "children": []},
+                        {"name": "创意设计孵化",
+                        "parent": "码砖Workplace工作空间设计小组（Wechat）",
+                        "children": []},
+                        {"name": "资源对接",
+                         "parent": "码砖Workplace工作空间设计小组（Wechat）"}]
+                }
+             ]
+           }
+          ]
+        }
+      ]
   }
-
 ];
 
 
 // ************** Generate the tree diagram	 *****************
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
-	width = 1400 - margin.right - margin.left,
-	height = 800 - margin.top - margin.bottom;
+	width = 1920 - margin.right - margin.left,
+	height = 900 - margin.top - margin.bottom;
 
 var i = 0,
 	duration = 750,
